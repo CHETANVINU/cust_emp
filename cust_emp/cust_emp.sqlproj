@@ -138,4 +138,7 @@
     <Build Include="Security\customer_services.sql" />
     <Build Include="Security\emp_services.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
 </Project>
