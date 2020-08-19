@@ -15,3 +15,8 @@ insert into customer_services.jobs (
     description,
    created_at) values (2,'hello wordl',SYSDATETIME())
    go
+insert into customer_services.jobs (
+    customer_id ,
+    description,
+   created_at) values (2,'chetan',SYSDATETIME())
+   go
