@@ -13,4 +13,5 @@ Post-Deployment Script Template
 insert into customer_services.jobs (
     customer_id ,
     description,
-   created_at) values (2,'hello wordl',SYSDATETIME());
+   created_at) values (2,'hello wordl',SYSDATETIME())
+   go
